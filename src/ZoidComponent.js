@@ -10,7 +10,7 @@ const ZoidComponent = zoid.create({
   // when someone includes my component on their page
 
   url: 'http://localhost:3000/',
-  autoResize: {width: true, height: true}
+  autoResize: {width: true, height: true},
   dimensions: {
     height: '100%',
     width: '100%',
