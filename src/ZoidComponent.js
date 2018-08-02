@@ -9,7 +9,7 @@ window.ZoidComponent = zoid.create({
   // The url that will be loaded in the iframe or popup,
   // when someone includes my component on their page
 
-  url: 'http://localhost:5000/',
+  url: 'http://localhost:3000/',
   autoResize: true,
   dimensions: {
     height: '100%',
