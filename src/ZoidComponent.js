@@ -1,6 +1,6 @@
 import zoid from 'zoid';
 
-window.ZoidComponent = zoid.create({
+const ZoidComponent = zoid.create({
 
   // The html tag used to render my component
 
@@ -10,7 +10,7 @@ window.ZoidComponent = zoid.create({
   // when someone includes my component on their page
 
   url: 'http://localhost:3000/',
-  autoResize: true,
+  autoResize: {width: true, height: true}
   dimensions: {
     height: '100%',
     width: '100%',
