@@ -1,6 +1,6 @@
 import zoid from 'zoid';
 
-window.IntroZoidComponent = zoid.create({
+window.ZoidComponent = zoid.create({
 
   // The html tag used to render my component
 
